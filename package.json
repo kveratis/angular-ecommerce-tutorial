@@ -1,7 +1,11 @@
 {
-  "name": "jrqkrrdrxeg.angular",
+  "name": "angular-ecommerce-tutorial",
   "version": "0.0.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kveratis/angular-ecommerce-tutorial"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

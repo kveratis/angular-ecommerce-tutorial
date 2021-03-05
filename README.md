@@ -1,3 +1,11 @@
-# angular-edvnbz
+# Angular e-Commerce Tutorial
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-edvnbz)
+### Deploy Locally
+
+ng serve
+
+### Build Production
+
+ng build --prod
+
+copy files from dist/angular-ecommerce-tutorial to your web server.

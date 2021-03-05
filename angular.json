@@ -6,7 +6,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-test": {
+    "angular-ecommerce-tutorial": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-test",
+            "outputPath": "dist/angular-ecommerce-tutorial",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,18 +68,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-test:build"
+            "browserTarget": "angular-ecommerce-tutorial:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-test:build:production"
+              "browserTarget": "angular-ecommerce-tutorial:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-test:build"
+            "browserTarget": "angular-ecommerce-tutorial:build"
           }
         },
         "test": {
@@ -116,16 +116,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "angular-test:serve"
+            "devServerTarget": "angular-ecommerce-tutorial:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "angular-test:serve:production"
+              "devServerTarget": "angular-ecommerce-tutorial:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "angular-test"
+  "defaultProject": "angular-ecommerce-tutorial"
 }
